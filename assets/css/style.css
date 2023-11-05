@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    background-color: #e9edee;
+    text-align: center;
+}
+header{
+    text-align: left;
+}
+header img{
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    margin:25px
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 25px;
+}
+
+h2{
+    font-size: 1.7rem;
+    padding: 15px;
+}
+h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+main a{
+    font-size: 1.0rem;
+    color:#67a7b4;
+    text-decoration: none;
+}
+
+#OrangeBar{
+    background-color: #fa6300;
+    color: #fad8b7;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+#ImgBackground{
+    background-image: url(/assets/images/bg-image.png);
+    background-size: contain;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+#WhiteBackground{
+    background-color: white;
+    text-align: left;
+}
+
+.TopBottom{
+    background-color:  #222f3f;
+}
+
+.PreTopBottom{
+    background-color: #374858;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#PicsSection{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Pics{
+    height: 250px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 3px 10px 1px grey;
+    object-fit: cover;
+}
+
+.BigPics{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+}
+
+footer img{
+    height: 50px;
+    width: auto;
+    padding: 50px;
+}
